@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 7</title>
+</head>
+
+<body>
+    <h2>
+        7. Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a
+        72 devem ser somados. <br> Escreva o valor final da soma efetuada e também todos valores que o usuário informou.
+    </h2>
+
+    <script>
+        let n1 = parseInt(prompt("Informe o primeiro valor"));
+        let n2 = parseInt(prompt("Informe o segundo valor"));
+        let n3 = parseInt(prompt("Informe o terceiro valor"));
+        let n4 = parseInt(prompt("Informe o quarto valor"));
+        let n5 = parseInt(prompt("Informe o quinto valor"));
+        let n6 = parseInt(prompt("Informe o sexto valor"));
+
+        let sum = 0;
+
+        if(n1 < 72){
+            sum = sum + n1;   
+        }
+
+        if(n2 < 72) {
+            sum = sum + n2;
+        }
+
+        if(n3 < 72){
+            sum = sum + n3;
+        }
+
+        if(n4 < 72){
+            sum = sum + n4;
+        }
+
+        if(n5 < 72){
+            sum = sum + n5;
+        }
+
+        if (n6 < 72){
+            sum = sum + n6;
+        }
+
+        document.write(`Resultado: ${sum}`);
+
+    </script>
+</body>
+
+</html>

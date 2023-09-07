@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+</head>
+
+<body>
+    <h2>
+        4. Faça um programa que leia dois valores informados pelo usuário e exiba uma das três mensagens a seguir:
+        ‘Números iguais’, caso os números sejam iguais ‘Primeiro é maior’, caso o primeiro seja maior que o segundo;
+        ‘Segundo maior’, caso o segundo seja maior que o primeiro.
+    </h2>
+
+    <script>
+        let n1 = parseInt(prompt("Informe o primeiro número"));
+        let n2 = parseInt(prompt("Informe o segundo número"));
+
+        if(n1 == n2){
+            document.write(`<h3>Números iguais</3>`);
+        } else if(n1 > n2) {
+            document.write(`<h3>Primeiro número é maior que o segundo</3>`);
+        } else {
+            document.write(`<h3>Segundo número é maior que o primeiro</3>`);
+        }
+
+    </script>
+</body>
+</html>
